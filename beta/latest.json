@@ -1,0 +1,18 @@
+{
+  "payload": {
+    "bundle": "bundles/1.8.0.tar.gz",
+    "changelog": [
+      "사진 출처 표기: 기본은 카드에 쓰지 않고, 캡션에는 라이선스상 필요한 사진(Wikimedia·Flickr CC·공공누리)만. 이용자가 켜면 카드·캡션 모두 표기"
+    ],
+    "channel": "beta",
+    "manifest": "bundles/1.8.0.manifest.json",
+    "manifest_sha256": "d17b7ba450ec7708acebaacad729853260e813b00507504f14e51ada41402212",
+    "min_client_version": "1.0.0",
+    "published_at": "2026-11-23T16:10:27+09:00",
+    "schema": 2,
+    "sha256": "aa3d06c9ed0d2e272f919932c89d9f7151593e6ab6f2f05aec59078cc1505afd",
+    "size": 31960,
+    "version": "1.8.0"
+  },
+  "sig": "JL/XCYpewXWhiqKYRptAJK65ELP3c8k+yVEm983a1PyiOSQCP2dYoKxq6vJD3AbAidutIJbSGFcKb9GalcVoDQ=="
+}

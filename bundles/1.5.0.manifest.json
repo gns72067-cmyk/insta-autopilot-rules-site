@@ -1,0 +1,181 @@
+{
+  "payload": {
+    "bundle": {
+      "path": "bundles/1.5.0.tar.gz",
+      "sha256": "433a1098c4b4c8c202745f51e0f5db5484efcde7d5a7862d227783ad205af6f7",
+      "size": 31463
+    },
+    "changelog": [
+      "사진 출처에 Flickr CC 사진(Openverse 검색) 추가, 정부 홍보 계정 사진·정책브리핑 사진 직접 사용은 제외로 명확히 함",
+      "사진 검색어 만드는 법(구체적 대상 → 사물·장면 → 분류 → 한국어 → 상징) 추가, 관련 없는 사진 대신 C 템플릿 원칙",
+      "사진 후보 최대 5장 → 8장, 크게 확대돼 흐려지는 사진은 후보에서 제외"
+    ],
+    "created_at": "2026-11-20T16:05:10+09:00",
+    "files": [
+      {
+        "path": "bundle.json",
+        "sha256": "84cc1dae92530c58c94f3928b7b137abb5d924baee13a01267bef56d976f3bb9",
+        "size": 475
+      },
+      {
+        "path": "base/banned_phrases.txt",
+        "sha256": "89b1a09c3243b23a3e0fca0fa76db71331ca3524496c8b25a989e4d8a2d66a04",
+        "size": 870
+      },
+      {
+        "path": "base/brief.md",
+        "sha256": "31093e261f3cd203a2d6777685a2de6f5cad7da84a8b52f32e13efad75dbd2ff",
+        "size": 2940
+      },
+      {
+        "path": "base/caption.md",
+        "sha256": "ec460625f58250d11a4744dc55e1bebc5d00a160a96b31b6a1626cb4f41f2d4d",
+        "size": 2705
+      },
+      {
+        "path": "base/checks.yaml",
+        "sha256": "a1f8ee4c23cb79f20fd832120808da13cb27e5b8b036669e6a77bcbc3b2524b1",
+        "size": 1837
+      },
+      {
+        "path": "base/fact.md",
+        "sha256": "006bbec1a7dd589ab56e7eef18f196952dcc075b220c67211791ae58a3cd83af",
+        "size": 3581
+      },
+      {
+        "path": "base/hook.md",
+        "sha256": "42b573d049dcc3a4153290c5818029f70a874376b57a4b272b86c9ad80d86f6a",
+        "size": 5982
+      },
+      {
+        "path": "base/image.md",
+        "sha256": "209d499a41b91ad027e4f96cd30322dedef5d28d94158d1017444267fa9f63bd",
+        "size": 5740
+      },
+      {
+        "path": "base/upload.md",
+        "sha256": "2e370b5a2eafa35039f2180d39dfc3808e5501e43f5dcb574bdb4cfb27e2bdae",
+        "size": 4584
+      },
+      {
+        "path": "base/workflow.md",
+        "sha256": "72dc982e9f249404ea27e2e738f89639814aa43d863a14bd9be11c77ea9b81bd",
+        "size": 7455
+      },
+      {
+        "path": "categories/_catalog.yaml",
+        "sha256": "8d1e77b984cc104c8eab72ed5523ad68f9e088814df1a003b510cbd75ca549e5",
+        "size": 4582
+      },
+      {
+        "path": "categories/career/preset.yaml",
+        "sha256": "1523244d8e03e60ffa35e387a6243cd6c834a0b5bd88492b28c4ef2373e10e34",
+        "size": 1845
+      },
+      {
+        "path": "categories/economy/preset.yaml",
+        "sha256": "85816cd73758865f6e0090087de9cbe151448df189026ee74343c16bb98f3602",
+        "size": 2202
+      },
+      {
+        "path": "categories/entertainment/preset.yaml",
+        "sha256": "ebdf599c816733ac88758f56e0bd0fcb845fb434f6549a0bbf9bc55c7147e9ed",
+        "size": 1929
+      },
+      {
+        "path": "categories/finance/preset.yaml",
+        "sha256": "fca465f8b7e046233aeba2fc17aef266507aaee31e460e92721f8c5747e9e841",
+        "size": 1842
+      },
+      {
+        "path": "categories/health/fact.md",
+        "sha256": "5fd8b5e1870ce21c1566c8af3f17ed36573cdd0479111671ee9734a4d1bef0c1",
+        "size": 610
+      },
+      {
+        "path": "categories/health/hook.md",
+        "sha256": "222e337cbe2ab0630aa4b883ac19cefcb036f098b8fe35c87dc572b77ac6bd8b",
+        "size": 279
+      },
+      {
+        "path": "categories/health/preset.yaml",
+        "sha256": "d314dea2dd52ecd392603a26d4ff7f9843825678b174d9a9291770a4c462e220",
+        "size": 2130
+      },
+      {
+        "path": "categories/living/preset.yaml",
+        "sha256": "d24c76417aaec065ef7689ec84e6f8407805c87f72a5bc9c8bd186bed8fdaaa8",
+        "size": 1870
+      },
+      {
+        "path": "categories/politics/preset.yaml",
+        "sha256": "eeb825ee24ffce39bd2cb6229e66df1f038e0fb24c3f417ef967db48b2224294",
+        "size": 2333
+      },
+      {
+        "path": "categories/realestate/preset.yaml",
+        "sha256": "87627e91d1109bead27aa31fa9cf93856a7f8dcbc49f8fa7082a7490c2c340e8",
+        "size": 1793
+      },
+      {
+        "path": "categories/romance/brief.md",
+        "sha256": "1e8ebc10bba9ccb67e5bf3202a45b809c8ff5ba3ab0a051d34477117a973c2b4",
+        "size": 371
+      },
+      {
+        "path": "categories/romance/preset.yaml",
+        "sha256": "5d662adc30d21c9aeeba8d40c428ba162307e6a5e20ed0682d4c415825fd1a36",
+        "size": 1826
+      },
+      {
+        "path": "categories/sports/preset.yaml",
+        "sha256": "0e996ce89d22dfc589a3a80a33cbfaca97fb38da451fd9933eaf9a87c0d87a57",
+        "size": 1790
+      },
+      {
+        "path": "categories/tech/preset.yaml",
+        "sha256": "d0c9adcf9f0018cc9cb6b9916780964f7e8bdae69bb919ba450c66de9065174d",
+        "size": 2021
+      },
+      {
+        "path": "categories/travel/preset.yaml",
+        "sha256": "3b9f6984b4230808dbdcb41b990c7ffc1d6fab00b0ce4536ed7025498678b89b",
+        "size": 1900
+      },
+      {
+        "path": "templates/base.css",
+        "sha256": "655d4108784e7be2da46541438f2f8920fd82f4267f2745e4baf21a836c4fca7",
+        "size": 8300
+      },
+      {
+        "path": "templates/cta_follow.html",
+        "sha256": "68065874dc5614d26b1f1efd1def9aaa43732858621ede9383a6c0652815ff7e",
+        "size": 1192
+      },
+      {
+        "path": "templates/feed_4x5.html",
+        "sha256": "434c90c3796ef7d065591bf4998f065ff870b8dbf3c5eb5675e8ed922ef26490",
+        "size": 938
+      },
+      {
+        "path": "templates/reel_9x16.html",
+        "sha256": "6e02e097e4b45df239427eb1f545e31311cdca93ff27f9cd64cd44bed66ad3bf",
+        "size": 1220
+      },
+      {
+        "path": "templates/slots.js",
+        "sha256": "943c481ee5918b9c78e731a8e816f7955069345625efceec5ce170794abaf8d8",
+        "size": 4467
+      },
+      {
+        "path": "templates/template_meta.yaml",
+        "sha256": "125827db6a074b36d36df18df46a94fb6d7f71ce2db0ef201b3370614931eecb",
+        "size": 3915
+      }
+    ],
+    "min_client_version": "1.0.0",
+    "schema": 2,
+    "version": "1.5.0"
+  },
+  "sig": "pPwanA1Ec4zm9b5ds1E5k3w728wxS399ZiXY8bU4KURRbfJ1qcj3zr6LsxlYI7IFwi/1QZRO7aCf9PR5KoC8CA=="
+}
